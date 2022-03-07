@@ -1,0 +1,101 @@
+body{
+    margin:0    ;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    background-color: darkcyan; 
+    padding: 1% 0%; 
+    color: black;
+    text-align: center; 
+    font-size: 15px; 
+    font-weight: bold;
+    position: relative; 
+    top: 0;
+    width: 100%; 
+}
+
+#button {
+    background-color: crimson;
+    font-size: large;
+    position: relative;
+    font-weight: bold;
+    width: 5%;
+    justify-content: center;
+    margin-left: 90%;
+}
+
+#albino {
+    margin-top: 10%;
+    transform: rotate(270deg);
+}
+
+#albino2{
+    margin-top: 10%;
+    transform: rotate(90deg);
+}
+
+
+#AlvaroBig {
+    background-color: cadetblue;
+    margin-top: 2%;;
+    display: flex;
+    justify-content: space-evenly;
+    height:100%;
+    width:100%;
+    flex-direction: row;
+    
+}
+
+#merch {
+    margin-top: 5%;
+    justify-content: center;
+    height: 100%;
+    width: 100%;    
+}
+
+#row1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#row2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#nft {
+    display: flex;
+    margin-left: 10%;
+    flex-direction: row;
+}
+
+#mamma {
+    display: flex;
+    flex-direction: row;
+}
+
+#kontakt {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    background-color: darkcyan;
+    padding: 0.5% 1%;
+    margin-top: 2%;
+}
+
+#in {
+    display: flex;
+    flex-direction: row;
+}
+
+#tube {
+    display: flex;
+    flex-direction: row;
+}
